@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.morebetterclaw/humanify-mcp",
+  "description": "Transform AI-generated marketing copy into human-sounding, GEO-optimised content that gets cited by AI search engines (AEO/GEO optimised).",
+  "repository": {
+    "url": "https://github.com/morebetterclaw/humanify-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@morebetterclaw/humanify-mcp",
+      "version": "0.1.0",
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        {
+          "description": "Your Humanify API key. Get one at https://humanifyit.ai/api-docs",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "HUMANIFY_API_KEY"
+        }
+      ]
+    }
+  ]
+}

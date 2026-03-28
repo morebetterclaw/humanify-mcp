@@ -1,0 +1,20 @@
+{
+  "name": "@morebetterclaw/humanify-mcp",
+  "version": "0.1.0",
+  "description": "Transform AI-generated copy into human-sounding, GEO-optimised content. MCP server wrapping the Humanify API.",
+  "main": "src/index.js",
+  "type": "module",
+  "mcpName": "io.github.morebetterclaw/humanify-mcp",
+  "bin": { "humanify-mcp": "src/index.js" },
+  "scripts": { "start": "node src/index.js" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1"
+  },
+  "keywords": ["mcp", "humanify", "copywriting", "geo", "aeo", "marketing"],
+  "author": "MoreBetter Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morebetterclaw/humanify-mcp.git"
+  }
+}
